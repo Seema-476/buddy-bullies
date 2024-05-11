@@ -13,10 +13,12 @@
     /* font-color */
     --fc-white:#ffffff;
     --fc-black: #000000;
+    --fc-regular-blue: #000a1a;
     --fc-blue: #001d49;
     --fc-dark-blue: #031227;
     --fc-light-gray: #b2c8d6;
     --fc-gray: #b3b8be;
+    --fc-gray-100:#80848c;
 }
 .clr-white{
     color: var(--fc-white);
@@ -33,10 +35,17 @@
 .clr-light-gray{
     color: var(--fc-light-gray);
 }
+.clr-gray-100 {
+    color: var(--fc-gray-100);
+}
+
 
 /* bg clr */
-.bg-white {
+.bg-clr-white {
     background-color: var(--fc-white);
+}
+.bg-clr-regular-blue {
+    background-color: var(--fc-regular-blue);
 }
 
 /* font size */

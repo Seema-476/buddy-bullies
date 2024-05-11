@@ -32,21 +32,33 @@
 }
 
 /* line height */
+.lh21 {
+    line-height: 21.76px;
+}
+.lh24 {
+    line-height: 24px;
+}
+
 .lh32 {
     line-height: 32.62px;
 }
 
-.lh86 {
-    line-height: 66.8px;
+.lh37 {
+    line-height: 37.5px;
 }
 
 .lh41 {
     line-height: 41px;
 }
 
-.lh37 {
-    line-height: 37.5px;
+.lh86 {
+    line-height: 66.8px;
 }
+
+.lh68 {
+    line-height: 68px;
+}
+
 
 /* ========================== herosection ============================== */
 .herobg {
@@ -112,6 +124,54 @@
 .btngetstarted:hover {
     scale: .95;
 }
+
+/* =============================section 2 ========================== */
+.sol{
+padding-top: 46px;
+}
+.whitelist{
+    padding-top: 21px;
+}
+.btncomingsoon{
+    border: none;
+    border-radius: 45.5px;
+    padding: 10px 20px;
+    margin-top: 63px;
+    transition: .5s;
+}
+.btncomingsoon:hover{
+    scale: .95;
+}
+.pt52{
+    padding-top: 52px;
+}
+
+.svg a svg{
+transition: .2s ;
+}
+.svg a svg:hover{
+transform: translateY(-6px);
+}
+.mt{
+    margin-top: -2px;
+}
+.max-w-574{
+    max-width: 574px;
+}
+.paddingtb{
+    padding-top: 26px;
+    padding-bottom: 63px;
+}
+.gifelip{
+position: absolute;
+top: 0;
+}
+.sectionelip{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 @media(max-width:991.98px) {
     .menulist {
         width: 100%;
@@ -169,26 +229,31 @@
         background-color: var(--fc-white);
     }
 }
-@media(min-width:576px){
+
+@media(min-width:576px) {
     .para {
-            padding-top: 23px;
-            padding-bottom: 23px;
-        }
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+
     .lh86 {
-            line-height: 86.8px;
-        }
+        line-height: 86.8px;
+    }
+
     .btngetstarted {
-            padding: 16px 41px 15px 40px;
-        }
+        padding: 16px 41px 15px 40px;
+    }
     .gap80 {
-            gap: 60px;
-        }
+        gap: 60px;
+    }
 }
+
 @media(min-width:768px) {
-        .para {
-                padding-top: 27px;
-                padding-bottom: 46px;
-            }
+    .para {
+        padding-top: 27px;
+        padding-bottom: 46px;
+    }
+
     .gap80 {
         gap: 80px;
     }
