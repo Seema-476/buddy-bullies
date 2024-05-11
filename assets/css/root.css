@@ -7,12 +7,13 @@
     --fs-llg: 21.74px;
     --fs-2lg: 25px;
     --fs-xl: 20px;
-    --fs-xxl: 50px;
+    --fs-xxl: 25px;
     --fs-2xl: 41px;
 
     /* font-color */
     --fc-white:#ffffff;
     --fc-black: #000000;
+    --fc-primary-blue: #009dff;
     --fc-regular-blue: #000a1a;
     --fc-secondary-blue: #031227;
     --fc-blue: #001d49;
@@ -88,24 +89,16 @@
 
 @media(min-width:576px){
         :root {
-                /* --fs-md: 16px;
-                --fs-mmd: 18px; */
                 --fs-lg: 16px;
-                /* --fs-llg: 21.74px;
-                --fs-2lg: 25px; */
                 --fs-xl: 25px;
-                /* --fs-xxl: 50px; */
+                --fs-xxl: 40px;
                 --fs-2xl: 55px;
             }
 }
 @media(min-width:768px) {
     :root {
-        /* --fs-md: 16px;
-                --fs-mmd: 18px; */
         --fs-lg: 20px;
-        /* --fs-llg: 21.74px;
-                --fs-2lg: 25px;
-                --fs-xxl: 50px; */
+                --fs-xxl: 50px;
         --fs-2xl: 70px;
     }
 }
