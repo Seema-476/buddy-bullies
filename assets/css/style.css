@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+    /* outline: 1px solid red; */
+}
+
+.font-poppin {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* font weight */
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw600 {
+    font-weight: 600;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+/* line height */
+.lh32 {
+    line-height: 32.62px;
+}
+
+.lh86 {
+    line-height: 66.8px;
+}
+
+.lh41 {
+    line-height: 41px;
+}
+
+.lh37 {
+    line-height: 37.5px;
+}
+
+/* ========================== herosection ============================== */
+.herobg {
+    background-image: url(../images/herosectionbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.minting {
+    position: relative;
+}
+
+.minting::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    background: var(--fc-white);
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.minting:hover::after {
+    width: 100%;
+}
+
+.max-w-1320 {
+    max-width: 1320px;
+}
+
+.pt26 {
+    padding-top: 26px;
+}
+
+.gap80 {
+    gap: 40px;
+}
+
+.max-w-515 {
+    max-width: 515px;
+}
+
+.max-w-547 {
+    max-width: 547px;
+}
+
+.para {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    opacity: 70%;
+}
+
+.btngetstarted {
+    border: none;
+    padding: 12px 32px 12px 32px;
+    border-radius: 45.5px;
+    transition: .2s;
+}
+
+.btngetstarted:hover {
+    scale: .95;
+}
+@media(max-width:991.98px) {
+    .menulist {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        background: var(--fc-blue);
+        top: 0;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 1;
+    }
+
+    .menuicon {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 2;
+    }
+
+    .menuicon>span {
+        width: 100%;
+        height: 4px;
+        background-color: var(--fc-white);
+        transition: all 300ms linear;
+    }
+
+
+    .overflowhidden {
+        overflow: hidden;
+    }
+
+    .cross span:nth-child(1) {
+        transform: rotate(40deg) translateY(17px);
+        transition: all 300ms linear;
+        background-color: var(--fc-white);
+    }
+
+    .cross span:nth-child(2) {
+        opacity: 0;
+        transform: translate(-100%);
+        transition: all 300ms linear;
+    }
+
+    .cross span:nth-child(3) {
+        transform: rotate(-40deg) translateY(-17px);
+        transition: all 300ms linear;
+        background-color: var(--fc-white);
+    }
+}
+@media(min-width:576px){
+    .para {
+            padding-top: 23px;
+            padding-bottom: 23px;
+        }
+    .lh86 {
+            line-height: 86.8px;
+        }
+    .btngetstarted {
+            padding: 16px 41px 15px 40px;
+        }
+    .gap80 {
+            gap: 60px;
+        }
+}
+@media(min-width:768px) {
+        .para {
+                padding-top: 27px;
+                padding-bottom: 46px;
+            }
+    .gap80 {
+        gap: 80px;
+    }
+}
