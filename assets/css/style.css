@@ -35,8 +35,13 @@
 .lh21 {
     line-height: 21.76px;
 }
+
 .lh24 {
     line-height: 24px;
+}
+
+.lh30 {
+    line-height: 30.15px;
 }
 
 .lh32 {
@@ -126,50 +131,80 @@
 }
 
 /* =============================section 2 ========================== */
-.sol{
-padding-top: 46px;
+.sol {
+    padding-top: 46px;
 }
-.whitelist{
+
+.whitelist {
     padding-top: 21px;
 }
-.btncomingsoon{
+
+.btncomingsoon {
     border: none;
     border-radius: 45.5px;
     padding: 10px 20px;
     margin-top: 63px;
     transition: .5s;
 }
-.btncomingsoon:hover{
+
+.btncomingsoon:hover {
     scale: .95;
 }
-.pt52{
+
+.pt52 {
     padding-top: 52px;
 }
 
-.svg a svg{
-transition: .2s ;
+.svg a svg {
+    transition: .2s;
 }
-.svg a svg:hover{
-transform: translateY(-6px);
+
+.svg a svg:hover {
+    transform: translateY(-6px);
 }
-.mt{
+
+.mt {
     margin-top: -2px;
 }
-.max-w-574{
+
+.max-w-574 {
     max-width: 574px;
 }
-.paddingtb{
+
+.paddingtb {
     padding-top: 26px;
     padding-bottom: 63px;
 }
-.gifelip{
-position: absolute;
-top: 0;
-}
-.sectionelip{
+
+.gifelip {
     position: absolute;
-    bottom: 0;
+    top: -55%;
+    left: 4%;
+    z-index: -1;
+}
+
+.sectionelip {
+    position: absolute;
+    bottom: -80%;
     right: 0;
+    z-index: -1;
+}
+
+/* ======================================== card ================================= */
+.padding44 {
+    padding-top: 44px;
+}
+
+.cardtext {
+    opacity: 70%;
+    max-width: 347px;
+    padding-top: 25px;
+}
+
+.imagecard {
+    padding: 25px 25px;
+    border-radius: 20px;
+    min-height: 511px;
 }
 
 @media(max-width:991.98px) {
@@ -243,6 +278,7 @@ top: 0;
     .btngetstarted {
         padding: 16px 41px 15px 40px;
     }
+
     .gap80 {
         gap: 60px;
     }
@@ -256,5 +292,11 @@ top: 0;
 
     .gap80 {
         gap: 80px;
+    }
+}
+
+@media(min-width:992px) {
+    .imagecard {
+        padding: 39px 39px;
     }
 }
