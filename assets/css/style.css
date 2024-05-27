@@ -186,7 +186,7 @@
     z-index: -1;
 }
 
-/* ======================================== card ================================= */
+/* ========================================card ================================= */
 .padding44 {
     padding-top: 44px;
 }
@@ -202,12 +202,14 @@
     border-radius: 20px;
     min-height: 511px;
     transition: 1s;
-cursor: pointer;
+    cursor: pointer;
 }
-.imagecard:hover{
+
+.imagecard:hover {
     box-shadow: 0px 4px 20px 0 var(--fc-primary-blue);
 }
-.padding65{
+
+.padding65 {
     padding-top: 45px;
     padding-bottom: 45px;
 }
@@ -272,13 +274,15 @@ cursor: pointer;
 
 @media(min-width:576px) {
     .padding65 {
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .paddingtb {
-            padding-top: 26px;
-            padding-bottom: 55px;
-        }
+        padding-top: 26px;
+        padding-bottom: 55px;
+    }
+
     .para {
         padding-top: 23px;
         padding-bottom: 23px;
@@ -310,13 +314,15 @@ cursor: pointer;
 
 @media(min-width:992px) {
     .padding65 {
-            padding-top: 65px;
-            padding-bottom: 65px;
-        }
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
     .paddingtb {
-            padding-top: 26px;
-            padding-bottom: 63px;
-        }
+        padding-top: 26px;
+        padding-bottom: 63px;
+    }
+
     .imagecard {
         padding: 39px 39px;
     }
