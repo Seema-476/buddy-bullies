@@ -21,6 +21,7 @@
     --fc-light-gray: #b2c8d6;
     --fc-gray: #b3b8be;
     --fc-gray-100:#80848c;
+    --fc-gray-200: #b2b5ba;
 }
 .clr-white{
     color: var(--fc-white);
@@ -45,6 +46,9 @@
 }
 .clr-gray-100 {
     color: var(--fc-gray-100);
+}
+.clr-gray-200 {
+    color: var(--fc-gray-200);
 }
 
 
