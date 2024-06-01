@@ -433,6 +433,7 @@
     padding-bottom: 21px;
     padding-left: 30px;
     padding-right: 30px;
+    opacity: 60%;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -460,6 +461,12 @@
     height: 13px !important;
     right: 0;
 }
+.faqshadow{
+    position: absolute;
+    right: 0;
+    top: -60%;
+    z-index: -1;
+}
 /* ================================= our team =================================== */
 .paddingteam{
     padding-top: 45px;
@@ -473,7 +480,36 @@
     padding-bottom: 26px;
 }
 /* ==================================== footer =================================== */
-
+.join{
+    padding-top: 179px;
+    padding-bottom: 106px;
+}
+.bgfooter{
+    background-image: url(../images/footerbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footertext{
+    opacity: 70%;
+    max-width: 388px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+.resources{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.map{
+    padding-bottom: 6px;
+}
+.community{
+padding-top: 30px;
+    padding-bottom: 10px;
+}
+.paddingb{
+    padding-bottom: 45px;
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 768px) {
