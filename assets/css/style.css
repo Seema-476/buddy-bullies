@@ -14,6 +14,7 @@
 .font-poppin {
     font-family: 'Poppins', sans-serif;
 }
+
 .font-montserrat {
     font-family: 'montserrat', sans-serif;
 }
@@ -63,6 +64,7 @@
 .lh37 {
     line-height: 37.5px;
 }
+
 .lh40 {
     line-height: 40.8px;
 }
@@ -74,6 +76,7 @@
 .lh45 {
     line-height: 45px;
 }
+
 .lh62 {
     line-height: 62px;
 }
@@ -461,51 +464,55 @@
     height: 13px !important;
     right: 0;
 }
-.faqshadow{
+
+.faqshadow {
     position: absolute;
     right: 0;
     top: -60%;
     z-index: -1;
 }
+
 /* ================================= our team =================================== */
-.paddingteam{
+.paddingteam {
     padding-top: 45px;
     padding-bottom: 42px;
 }
-.prime{
+
+.prime {
     padding-top: 32px;
     padding-bottom: 2px;
 }
-.team{
+
+.team {
     padding-bottom: 26px;
 }
+
 /* ==================================== footer =================================== */
-.join{
-    padding-top: 179px;
-    padding-bottom: 106px;
+.join {
+    padding-top: 45px;
+    padding-bottom: 50px;
 }
-.bgfooter{
-    background-image: url(../images/footerbg.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.footertext{
+
+.footertext {
     opacity: 70%;
     max-width: 388px;
     padding-top: 21px;
     padding-bottom: 20px;
 }
-.resources{
+
+.resources {
     padding-bottom: 10px;
 }
-.map{
+
+.map {
     padding-bottom: 6px;
 }
-.community{
+
+.community {
     padding-bottom: 10px;
 }
-.paddingb{
+
+.paddingb {
     padding-bottom: 45px;
 }
 
@@ -655,6 +662,10 @@
 }
 
 @media(min-width:576px) {
+    .join {
+        padding-bottom: 55px;
+    }
+
     .accordion-button:not(.collapsed)::after {
         width: 13px !important;
         height: 13px !important;
@@ -667,38 +678,51 @@
         right: 0;
     }
 
-.padding65 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+    .padding65 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 
-.paddingtb {
-    padding-top: 26px;
-    padding-bottom: 55px;
-}
+    .paddingtb {
+        padding-top: 26px;
+        padding-bottom: 55px;
+    }
 
-.para {
-    padding-top: 23px;
-    padding-bottom: 23px;
-}
+    .para {
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
 
-.lh86 {
-    line-height: 86.8px;
-}
+    .lh86 {
+        line-height: 86.8px;
+    }
 
-.btngetstarted {
-    padding: 16px 41px 15px 40px;
-}
+    .btngetstarted {
+        padding: 16px 41px 15px 40px;
+    }
 
-.gap80 {
-    gap: 60px;
-}
+    .gap80 {
+        gap: 60px;
+    }
 }
 
 @media(min-width:768px) {
+    .join {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+
+    .bgfooter {
+        background-image: url(../images/footerbg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .paddingfaq {
-            padding-bottom: 50px;
-        }
+        padding-bottom: 50px;
+    }
+
     .ptb {
         padding-bottom: 80px;
     }
@@ -718,15 +742,23 @@
 }
 
 @media(min-width:992px) {
+    .join {
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
     .community {
-            padding-top: 62px;
-        }
+        padding-top: 62px;
+    }
+
     .paddingteam {
-            padding-top: 60px;
-        }
+        padding-top: 60px;
+    }
+
     .paddingfaq {
-            padding-bottom: 60px;
-        }
+        padding-bottom: 60px;
+    }
+
     .padding65 {
         padding-top: 65px;
         padding-bottom: 65px;
@@ -743,6 +775,10 @@
 }
 
 @media(min-width:1200px) {
+    .join {
+        padding-top: 179px;
+    }
+
     .ptb {
         padding-bottom: 146px;
     }
