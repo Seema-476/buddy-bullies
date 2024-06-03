@@ -63,6 +63,9 @@
 .bg-clr-regular-blue {
     background-color: var(--fc-regular-blue);
 }
+.bg-clr-secondary-blue {
+    background-color: var(--fc-secondary-blue);
+}
 .bg-clr-dark-blue{
     background-color: var(--fc-dark-blue);
 }
