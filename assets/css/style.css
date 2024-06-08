@@ -70,11 +70,11 @@
 }
 
 .lh41 {
-    line-height: 41px;
+    line-height: 37px;
 }
 
 .lh45 {
-    line-height: 45px;
+    line-height: 36px;
 }
 
 .lh62 {
@@ -82,11 +82,11 @@
 }
 
 .lh86 {
-    line-height: 66.8px;
+    line-height: 56.8px;
 }
 
 .lh68 {
-    line-height: 68px;
+    line-height: 45px;
 }
 
 
@@ -161,21 +161,20 @@
     right: 0;
     z-index: -1;
 }
-
 /* =============================section 2 ========================== */
 .sol {
-    padding-top: 46px;
+    padding-top: 24px;
 }
 
 .whitelist {
-    padding-top: 21px;
+    padding-top: 17px;
 }
 
 .btncomingsoon {
     border: none;
     border-radius: 45.5px;
     padding: 10px 20px;
-    margin-top: 63px;
+    margin-top: 34px;
     transition: .5s;
 }
 
@@ -206,7 +205,7 @@
 
 .gifelip {
     position: absolute;
-    top: -55%;
+    top: -25%;
     left: 4%;
     z-index: -1;
 }
@@ -232,7 +231,7 @@
 .imagecard {
     padding: 25px 25px;
     border-radius: 20px;
-    min-height: 511px;
+    min-height: 411px;
     transition: 1s;
     cursor: pointer;
 }
@@ -270,124 +269,124 @@
 }
 
 /* Container around content */
-.container1 {
-    padding-right: 65px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
+ .container1 {
+     padding-right: 65px;
+     position: relative;
+     background-color: inherit;
+     width: 50%;
+ }
 
-/* The circles on the timeline */
-.container1::after {
-    content: '';
-    position: absolute;
-    width: 64.92px;
-    height: 64.92px;
-    right: -30px;
-    background-image: url(../images/timelinedot.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    border-radius: 50%;
-    z-index: 1;
-}
+ /* The circles on the timeline */
+ .container1::after {
+     content: '';
+     position: absolute;
+     width: 64.92px;
+     height: 64.92px;
+     right: -30px;
+     background-image: url(../images/timelinedot.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     top: 0;
+     border-radius: 50%;
+     z-index: 1;
+ }
 
-/* Container around content */
-.container2 {
-    padding-left: 65px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
+ /* Container around content */
+ .container2 {
+     padding-left: 65px;
+     position: relative;
+     background-color: inherit;
+     width: 50%;
+ }
 
-/* The circles on the timeline */
-.container2::after {
-    content: '';
-    position: absolute;
-    width: 64.92px;
-    height: 64.92px;
-    right: -33px;
-    background-image: url(../images/timelinedot.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: -5px;
-    border-radius: 50%;
-    z-index: 1;
-}
+ /* The circles on the timeline */
+ .container2::after {
+     content: '';
+     position: absolute;
+     width: 64.92px;
+     height: 64.92px;
+     right: -33px;
+     background-image: url(../images/timelinedot.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     top: -5px;
+     border-radius: 50%;
+     z-index: 1;
+ }
 
 
 
-/* Place the container to the left */
-.left {
-    left: 0;
-}
+ /* Place the container to the left */
+ .left {
+     left: 0;
+ }
 
-/* Place the container to the right */
-.right {
-    left: 50%;
-}
+ /* Place the container to the right */
+ .right {
+     left: 50%;
+ }
 
-/* Add arrows to the left container (pointing right) */
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-}
+ /* Add arrows to the left container (pointing right) */
+ .left::before {
+     content: " ";
+     height: 0;
+     position: absolute;
+     top: 22px;
+     width: 0;
+     z-index: 1;
+     right: 30px;
+ }
 
-/* Add arrows to the right container (pointing left) */
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-}
+ /* Add arrows to the right container (pointing left) */
+ .right::before {
+     content: " ";
+     height: 0;
+     position: absolute;
+     top: 22px;
+     width: 0;
+     z-index: 1;
+     left: 30px;
+ }
 
-/* Fix the circle for containers on the right side */
-.right::after {
-    left: -34px;
-}
+ /* Fix the circle for containers on the right side */
+ .right::after {
+     left: -34px;
+ }
 
-/* The actual content */
-.content {
-    position: relative;
-    border-radius: 6px;
-    padding-right: 96px;
-}
+ /* The actual content */
+ .content {
+     position: relative;
+     border-radius: 6px;
+     padding-right: 96px;
+ }
 
-.content1 {
-    position: relative;
-    border-radius: 6px;
-    padding-left: 96px;
-}
+ .content1 {
+     position: relative;
+     border-radius: 6px;
+     padding-left: 96px;
+ }
 
-.ptb {
-    padding-top: 24px;
-    padding-bottom: 50px;
-}
+ .ptb {
+     padding-top: 24px;
+     padding-bottom: 35px;
+ }
 
-.max-w-786 {
-    max-width: 786px;
-}
+ .max-w-786 {
+     max-width: 786px;
+ }
 
-.timeand {
-    padding-top: 140px;
-}
+ .timeand {
+     padding-top: 140px;
+ }
 
-.timelineshadow {
-    position: absolute;
-    top: -20%;
-    left: 0;
-    z-index: -1;
-}
+ .timelineshadow {
+     position: absolute;
+     top: -20%;
+     left: 0;
+     z-index: -1;
+ }
 
 /* ============================= FAQS ====================*/
 .paddingfaq {
@@ -396,7 +395,7 @@
 }
 
 .faq {
-    padding-bottom: 47px;
+    padding-bottom: 30px;
 }
 
 .accordion {
@@ -490,6 +489,12 @@
 }
 .zoom:hover{
     scale: .9;
+}
+.max-w-311{
+    max-width: 311px;
+}
+.max-w-293{
+    max-width: 293px;
 }
 
 /* ==================================== footer =================================== */
@@ -701,6 +706,21 @@
 }
 
 @media(min-width:576px) {
+    .faq {
+            padding-bottom: 40px;
+        }
+    .lh45 {
+            line-height: 45px;
+        }
+    .imagecard {
+            min-height: 511px;
+        }
+    .lh86 {
+            line-height: 62.8px;
+        }
+    .lh68 {
+            line-height: 55px;
+        }
     .join {
         padding-bottom: 55px;
     }
@@ -734,10 +754,6 @@
         padding-bottom: 23px;
     }
 
-    .lh86 {
-        line-height: 86.8px;
-    }
-
     .btngetstarted {
         padding: 16px 41px 15px 40px;
     }
@@ -748,6 +764,22 @@
 }
 
 @media(min-width:768px) {
+    .faq {
+            padding-bottom: 47px;
+        }
+    .ptb {
+            padding-top: 24px;
+            padding-bottom: 50px;
+        }
+    .lh68 {
+            line-height: 68px;
+        }
+    .lh41 {
+            line-height: 41px;
+        }
+    .lh86 {
+            line-height: 76.8px;
+        }
     .join {
         padding-top: 80px;
         padding-bottom: 90px;
@@ -783,6 +815,20 @@
 }
 
 @media(min-width:992px) {
+    .sol {
+            padding-top: 46px;
+        }
+    
+        .whitelist {
+            padding-top: 21px;
+        }
+    
+        .btncomingsoon {
+            margin-top: 63px;
+        }
+    .lh86 {
+            line-height: 86.8px;
+        }
     .join {
         padding-top: 110px;
         padding-bottom: 110px;
@@ -811,7 +857,7 @@
     }
 
     .imagecard {
-        padding: 39px 39px;
+        padding: 39px 35px;
     }
 }
 @media(min-width:1084px){
