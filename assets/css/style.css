@@ -219,13 +219,12 @@
 
 /* ========================================card ================================= */
 .padding44 {
-    padding-top: 44px;
+    padding-top: 12px;
 }
 
 .cardtext {
     opacity: 70%;
-    max-width: 347px;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .imagecard {
@@ -315,8 +314,6 @@
      border-radius: 50%;
      z-index: 1;
  }
-
-
 
  /* Place the container to the left */
  .left {
@@ -439,8 +436,6 @@
 }
 
 .accordion-button:not(.collapsed)::after {
-    /* background-image: url(../images/faqdown.png) !important; */
-    /* transform: none !important; */
     border: 2px solid var(--fc-white);
     border-width: 0 3px 3px 0;
     transform: rotate(44deg);
@@ -706,6 +701,13 @@
 }
 
 @media(min-width:576px) {
+    .padding44 {
+            padding-top: 25px;
+        }
+    
+        .cardtext {
+            padding-top: 20px;
+        }
     .faq {
             padding-bottom: 40px;
         }
@@ -815,6 +817,13 @@
 }
 
 @media(min-width:992px) {
+    .padding44 {
+            padding-top: 44px;
+        }
+    
+        .cardtext {
+            padding-top: 25px;
+        }
     .sol {
             padding-top: 46px;
         }
@@ -867,6 +876,9 @@
 }
 
 @media(min-width:1200px) {
+    .cardtext {
+            max-width: 347px;
+        }
     .community {
             padding-top: 62px;
         }
